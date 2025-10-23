@@ -14,7 +14,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px 20px 50px;
 }
@@ -50,7 +50,7 @@ a {
 .nadpis {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 20px 20px 50px;
     align-items: center;
@@ -64,6 +64,7 @@ a {
 .podnadpis {
     color: #e5e7eb;
     padding-top: 10px;
+    font-size: 18px;
 }
 
 h1 {
@@ -85,6 +86,7 @@ h1 {
     padding: 5px 20px;
     margin-top: 15px;
     border-radius: 6px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
 }
@@ -94,7 +96,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin: 20px;
+    padding: 40px 0px 20px;
 }
 
 .obr-produkty {
@@ -108,13 +110,84 @@ h2 {
     justify-content: space-between;
     gap: 10px;
     max-width: 1000px;
-    margin: 40px;
     margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
-    padding: 20px 20px 50px;
+    font-size: 18px;
+    padding: 20px 20px 70px;
     }
 
 .produkt {
     flex: 1 1 200px;
+}
+
+.citat-sec {
+    background-color: #e5e7eb;
+}
+.citat {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 20px 70px;
+    
+}
+
+.text-citatu {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.autor-citatu {
+    align-self: end;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action {
+    background-color: #3882f6;
+    max-width: 960px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 40px 0px 40px 100px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.butt-bottom {
+    background-color: #3882f6;
+    border: solid #f9faf8 2px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 40px 100px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: center;
+    }
+
+.footer-text {
+    background-color: #1f2937;
+    color:  #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 18px;
 }
